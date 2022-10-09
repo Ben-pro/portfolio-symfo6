@@ -31,6 +31,7 @@ Create your Symfony application and launch the internal server
   symfony new new-project --full
   cd new-project
   symfony serve -d
+  npm run watch
 ```
 
 Create an account (identical to your local session)

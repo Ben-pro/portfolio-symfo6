@@ -24,6 +24,10 @@ RUN pecl install apcu && docker-php-ext-enable apcu
 
 RUN npm install --global yarn
 
+RUN curl -sL https://deb.nodesource.com/setup_14.x | bash -
+
+RUN apt-get install -y nodejs
+
 RUN git config --global user.email "you@example.com" \
     &&  git config --global user.name "Your Name"
 
